@@ -74,5 +74,13 @@ Após essa etapa a mensagem é adicionada ao comando e é adiconando o sinal de 
   Nessa etapa do Sistema de comunicação de dados iremos simular isso.
   ### Deverá ser impresso no console o comando com a mensagem que seria enviado para o Arduino caso o módulo estivesse conectado.
   
-  
+  ## Utilizar medicoes de algum outro componente-Nivel 2
+  Comunicar com o satélite não é suficiente para as competições.O satélite deve ter várias funcionalidades para torna-lo útil na realização de missões,como medir a umidade e temperatura do ambiente,calcular a posição do sol,identificar áreas de desmatamento...
+  Logo é essencial que essas informações estejam na mensagem a ser enviada.### Para simular isso vocês deverão criar as funções(no código principal ou em uma biblioteca seprada) que retornam possiveis valores caso a função utilizada fosse a da biblioteca do módulo.Exemplo para o módulo acelerometro:
+  ```
+  x = accelero.getXRaw();
+  y = accelero.getYRaw();
+  z = accelero.getZRaw();
+  ```
+  Uma forma seria criar essas funcoes retornando possiveis valores para as variaceos dos eixos X,Y,Z.**_Instanciar uma classe que possua essas funções será um diferencial._**
 
