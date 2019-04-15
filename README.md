@@ -93,8 +93,8 @@ Após essa etapa a mensagem é adicionada ao comando e logo em seguida o adicona
   ## Criar um interface para comunicação Nivel 6
    ### O usuário poderá escolher o que gostaria de receber.
    **_possibilitar que a mensagem seja recebida com determinada frequência será um diferencial_**
-  ## Criatividade
-  Qualquer outra ideia que tiverem para tornar o código mais útil ou aproxima-lo de um algoritimo real.
+  ## Criatividade Nivel 7
+  **_Qualquer outra ideia que tiverem para tornar o código mais útil ou aproxima-lo de um algoritimo real._**
    ## A atividade será em dupla.
    Vocês serão separados em duplas.A comunicação será muito importante, além disso a metodologia da dupla(como vocês se organizaram para fazer) será questionada na entrega do trabalho.
     As duplas serão: 
@@ -105,6 +105,6 @@ Após essa etapa a mensagem é adicionada ao comando e logo em seguida o adicona
    ### Dupla 3
    Leonardo e Maria Eduarda.
    
-   **A entrega deverá ser enviada para o email _cefastaerospace@gmail.com_ até o dia 22/04/2019.**
+   **A entrega deverá ser enviada para o email _cefastaerospace@gmail.com_ até o dia 22/04/2019.Junto deverá ter um arquivo .txt informando as partes da tareafs feitas,caso não seja cumprida uma tarefa, adicone algum comentário a respeito._O CÓDIGO DEVE TER COMENTÁRIOS EXPLICANDO-O ALÉM DE ESTAR CORRENTAMENTE IDENTADO_**
   
 
