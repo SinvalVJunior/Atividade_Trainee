@@ -60,7 +60,7 @@ Percebe-se que o algoritimo prepara o comando antes de comunicar com o módulo a
   //Send new SMS command and message number
   serialSIM800.write("AT+CMGS=\"07194XXXXX\"\r\n");
   delay(1000);
-'''
+```
 Após essa etapa a mensagem é adicionada ao comando e é adiconando o sinal de que este está pronto para ser enviado ao módulo:
 ```
 //Send SMS content
