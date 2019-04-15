@@ -94,7 +94,7 @@ Após essa etapa a mensagem é adicionada ao comando e é adiconando o sinal de 
    ### O usuário poderá escolher o que gostaria de receber.
    **_possibilitar que a mensagem seja recebida com determinada frequencia será um diferencial_**
    
-   ## A atividade será em dupla
+   ## A atividade será em dupla.
     Vocês serão separados em duplas.A comunicação será muito importante, além disso a metodologia da dupla(como vocês se organizaram para fazer) será questionada na entrega do trabalho.
     As duplas serão:
     ### Dupla 1
