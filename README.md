@@ -5,7 +5,7 @@ Para finalizarmos o processo de trainee, os participantes deverão simular um si
 A tarefa será repartida em partes e o cumprimento de cada uma será classificatório.Não é necessário o cumprimento de toda a tarefa.
 #Enviar uma mensagem-Nivel 1
 No projeto atual, a equipe está utilizando o módulo GPRS para envio e recebimento de mensagens.Um algoritimo para isso:
-'''
+"""
 #include <SoftwareSerial.h>
  
 //SIM800 TX is connected to Arduino D8
@@ -50,6 +50,6 @@ void setup() {
  
 void loop() {
 }
-'''
+"""
 
 
