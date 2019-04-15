@@ -88,12 +88,12 @@ Após essa etapa a mensagem é adicionada ao comando e logo em seguida o adicona
    ### Ler um arquivo de imagem e codifica-lo em uma string.(Dica existem várias formas de codificar uma imagem, uma delas é o base64).
   ## Enviar uma imagem codificada-Nivel 4
   ### Após codificar uma imagem, a quantidade de caracteres é exorbitante,nessa etapa voces devem pensar em uma forma de envia-la como mensagem.
-  ## Criar um sistema de segurança Nivel 5
+  ## Criar um sistema de segurança-Nivel 5
    ### Exigir processos de autenticação para autorizar o envio das mensagens.
-  ## Criar um interface para comunicação Nivel 6
+  ## Criar um interface para comunicação-Nivel 6
    ### O usuário poderá escolher o que gostaria de receber.
    **_possibilitar que a mensagem seja recebida com determinada frequência será um diferencial_**
-  ## Criatividade Nivel 7
+  ## Criatividade-Nivel 7
   **_Qualquer outra ideia que tiverem para tornar o código mais útil ou aproxima-lo de um algoritimo real._**
    ## A atividade será em dupla.
    Vocês serão separados em duplas.A comunicação será muito importante, além disso a metodologia da dupla(como vocês se organizaram para fazer) será questionada na entrega do trabalho.
