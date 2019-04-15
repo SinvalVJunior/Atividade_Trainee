@@ -51,5 +51,28 @@ void setup() {
 void loop() {
 }
 ```
-
+Percebe-se que o algoritimo prepara o comando antes de comunicar com o módulo adicionando vários aspectos sobre a mensagem:
+```
+//Set SMS format to ASCII
+  serialSIM800.write("AT+CMGF=1\r\n");
+  delay(1000);
+ 
+  //Send new SMS command and message number
+  serialSIM800.write("AT+CMGS=\"07194XXXXX\"\r\n");
+  delay(1000);
+'''
+Após essa etapa a mensagem é adicionada ao comando e é adiconando o sinal de que este está pronto para ser enviado ao módulo:
+```
+//Send SMS content
+  serialSIM800.write("TEST");
+  delay(1000);
+   
+  //Send Ctrl+Z / ESC to denote SMS message is complete
+  serialSIM800.write((char)26);
+  delay(1000);
+  ```
+  Nessa etapa do Sistema de comunicação de dados iremos simular isso.
+  ### Deverá ser impresso no console o comando com a mensagem que seria enviado para o Arduino caso o módulo estivesse conectado.
+  
+  
 
