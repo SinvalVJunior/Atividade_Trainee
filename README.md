@@ -103,6 +103,7 @@ Após essa etapa a mensagem é adicionada ao comando e é adiconando o sinal de 
    Rodrigo Gomes e Pedro.
    ### Dupla 3
    Leonardo e Maria Eduarda.
-    **A entrega deverá ser enviada para o email _sinvalvieirajunior@gmail.com_ até o dia 22.**
+   
+   **A entrega deverá ser enviada para o email _sinvalvieirajunior@gmail.com_ até o dia 22.**
   
 
