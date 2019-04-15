@@ -85,9 +85,9 @@ Após essa etapa a mensagem é adicionada ao comando e é adiconando o sinal de 
   ```
   Uma forma seria criar essas funcoes retornando possiveis valores para as variaceos dos eixos X,Y,Z.**_Instanciar uma classe que possua essas funções será um diferencial._**
   ## Salvar uma imagem codificada-Nivel 3
-   ###Ler um arquivo de imagem e codifica-lo em uma string.(Dica existem varias fomras de codificar uma imagem, uma delas é o base64).
+   ### Ler um arquivo de imagem e codifica-lo em uma string.(Dica existem varias fomras de codificar uma imagem, uma delas é o base64).
   ## Enviar uma imagem codificada-Nivel 4
-  ###Após codificar uma imagem, a quantidade de caracteres é exorbitante,nessa etapa voces devem pensar em uma forma de envia-la como mensagem.
+  ### Após codificar uma imagem, a quantidade de caracteres é exorbitante,nessa etapa voces devem pensar em uma forma de envia-la como mensagem.
   ##Criar um sistema de segurança
    ### Exigir processos de autenticação para autorizar o envio das mensagens.
   ## Criar um interface para comunicação
