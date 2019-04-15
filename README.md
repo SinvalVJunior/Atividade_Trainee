@@ -1,10 +1,10 @@
 # Atividade_Trainee
-Ultima tarefa para os participantes do processo de trainee da equipe CEFAST Aerospace
+Última tarefa para os participantes do processo de trainee da equipe CEFAST Aerospace
 ## Sistema de envio de dados
 Para finalizarmos o processo de trainee, os participantes deverão simular um sistema básico de comunicação com um cubeSat **_utilizando a linguagem que preferir._**
 A tarefa será repartida em partes e o cumprimento de cada uma será classificatório.Não é necessário o cumprimento de toda a tarefa.
 ### Enviar uma mensagem-Nivel 1
-No projeto atual, a equipe está utilizando o módulo GPRS para envio e recebimento de mensagens.Um algoritimo para isso:
+No projeto atual, a equipe está utilizando o módulo GPRS para envio e recebimento de mensagens.Um algoritmo para isso:
 ```
 #include <SoftwareSerial.h>
  
@@ -51,7 +51,7 @@ void setup() {
 void loop() {
 }
 ```
-Percebe-se que o algoritimo prepara o comando antes de comunicar com o módulo adicionando vários aspectos sobre a mensagem:
+Percebe-se que o algoritmo prepara o comando antes de comunicar com o módulo adicionando vários aspectos sobre a mensagem:
 ```
 //Set SMS format to ASCII
   serialSIM800.write("AT+CMGF=1\r\n");
@@ -72,7 +72,7 @@ Após essa etapa a mensagem é adicionada ao comando e é adiconando o sinal de 
   delay(1000);
   ```
   Nessa etapa do Sistema de comunicação de dados iremos simular isso.
-  ### Deverá ser impresso no console o comando com a mensagem que seria enviado para o Arduino caso o módulo estivesse conectado.
+  ### Deverá ser impresso no console o comando com a mensagem que seria enviado para o Monitor Serial caso o módulo estivesse conectado.
   
   ## Utilizar medicoes de algum outro componente-Nivel 2
   Comunicar com o satélite não é suficiente para as competições.O satélite deve ter várias funcionalidades para torna-lo útil na realização de missões,como medir a umidade e temperatura do ambiente,calcular a posição do sol,identificar áreas de desmatamento...
