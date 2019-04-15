@@ -105,6 +105,6 @@ Após essa etapa a mensagem é adicionada ao comando e logo em seguida o adicona
    ### Dupla 3
    Leonardo e Maria Eduarda.
    
-   **A entrega deverá ser enviada para o email _cefastaerospace@gmail.com_ até o dia 22/04/2019.Junto deverá ter um arquivo .txt informando as partes da tareafs feitas,caso não seja cumprida uma tarefa, adicone algum comentário a respeito._O CÓDIGO DEVE TER COMENTÁRIOS EXPLICANDO-O ALÉM DE ESTAR CORRENTAMENTE IDENTADO_**
+   **A entrega deverá ser enviada para o email _cefastaerospace@gmail.com_ até o dia 22/04/2019.Junto deverá ter um arquivo .txt informando as partes da tareafs feitas,caso não seja cumprida uma tarefa, adicone algum comentário a respeito._O CÓDIGO DEVE TER COMENTÁRIOS EXPLICANDO-O ALÉM DE ESTAR CORRENTAMENTE IDENTADO._**
   
 
