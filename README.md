@@ -61,7 +61,7 @@ Percebe-se que o algoritmo prepara o comando antes de comunicar com o módulo ad
   serialSIM800.write("AT+CMGS=\"07194XXXXX\"\r\n");
   delay(1000);
 ```
-Após essa etapa a mensagem é adicionada ao comando e é adiconando o sinal de que este está pronto para ser enviado ao módulo:
+Após essa etapa a mensagem é adicionada ao comando e logo em seguida o adiconando o sinal de que este está pronto para ser enviado ao módulo:
 ```
 //Send SMS content
   serialSIM800.write("TEST");
@@ -74,26 +74,27 @@ Após essa etapa a mensagem é adicionada ao comando e é adiconando o sinal de 
   Nessa etapa do Sistema de comunicação de dados iremos simular isso.
   ### Deverá ser impresso no console o comando com a mensagem que seria enviado para o Monitor Serial caso o módulo estivesse conectado.
   
-  ## Utilizar medicoes de algum outro componente-Nivel 2
+  ## Utilizar medições de algum outro componente-Nivel 2
   Comunicar com o satélite não é suficiente para as competições.O satélite deve ter várias funcionalidades para torna-lo útil na realização de missões,como medir a umidade e temperatura do ambiente,calcular a posição do sol,identificar áreas de desmatamento...
   Logo é essencial que essas informações estejam na mensagem a ser enviada.
-  ### Para simular isso vocês deverão criar as funções(no código principal ou em uma biblioteca seprada) que retornam possiveis valores caso a função utilizada fosse a da biblioteca do módulo.Exemplo para o módulo acelerometro:
+  ### Para simular isso vocês deverão criar as funções(no código principal ou em uma biblioteca seprada) que retornam possiveis valores caso a função utilizada fosse a da biblioteca de algum módulo.Exemplo para o módulo acelerometro:
   ```
   x = accelero.getXRaw();
   y = accelero.getYRaw();
   z = accelero.getZRaw();
   ```
-  Uma forma seria criar essas funcoes retornando possiveis valores para as variaceos dos eixos X,Y,Z.**_Instanciar uma classe que possua essas funções será um diferencial._**
+  Uma forma seria criar essas funções retornando possiveis valores para as variações dos eixos X,Y,Z.**_Instanciar uma classe que possua essas funções será um diferencial._**
   ## Salvar uma imagem codificada-Nivel 3
-   ### Ler um arquivo de imagem e codifica-lo em uma string.(Dica existem varias formas de codificar uma imagem, uma delas é o base64).
+   ### Ler um arquivo de imagem e codifica-lo em uma string.(Dica existem várias formas de codificar uma imagem, uma delas é o base64).
   ## Enviar uma imagem codificada-Nivel 4
   ### Após codificar uma imagem, a quantidade de caracteres é exorbitante,nessa etapa voces devem pensar em uma forma de envia-la como mensagem.
-  ## Criar um sistema de segurança
+  ## Criar um sistema de segurança Nivel 5
    ### Exigir processos de autenticação para autorizar o envio das mensagens.
-  ## Criar um interface para comunicação
+  ## Criar um interface para comunicação Nivel 6
    ### O usuário poderá escolher o que gostaria de receber.
-   **_possibilitar que a mensagem seja recebida com determinada frequencia será um diferencial_**
-   
+   **_possibilitar que a mensagem seja recebida com determinada frequência será um diferencial_**
+  ## Criatividade
+  Qualquer outra ideia que tiverem para tornar o código mais útil ou aproxima-lo de um algoritimo real.
    ## A atividade será em dupla.
    Vocês serão separados em duplas.A comunicação será muito importante, além disso a metodologia da dupla(como vocês se organizaram para fazer) será questionada na entrega do trabalho.
     As duplas serão: 
