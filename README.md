@@ -96,13 +96,13 @@ Após essa etapa a mensagem é adicionada ao comando e é adiconando o sinal de 
    
    ## A atividade será em dupla.
    Vocês serão separados em duplas.A comunicação será muito importante, além disso a metodologia da dupla(como vocês se organizaram para fazer) será questionada na entrega do trabalho.
-    As duplas serão:
-    ### Dupla 1
-        Samir e Isabela.
-    ### Dupla 2
-        Rodrigo Gomes e Pedro.
-    ### Dupla 3
-        Leonardo e Maria Eduarda.
-    **A entrega deverá ser enviada para o email _sinvalvieirajunior@gmail.com_ até o dia 22**
+    As duplas serão: 
+   ### Dupla 1
+   Samir e Isabela.
+   ### Dupla 2
+   Rodrigo Gomes e Pedro.
+   ### Dupla 3
+   Leonardo e Maria Eduarda.
+    **A entrega deverá ser enviada para o email _sinvalvieirajunior@gmail.com_ até o dia 22.**
   
 
